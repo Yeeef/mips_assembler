@@ -1,0 +1,13 @@
+<RCC>
+    <qresource prefix="/images">
+        <file alias="猩猩笑">cool.png</file>
+        <file alias="阴阳">images/4-ying-yang.png</file>
+        <file alias="书">images/176-book.png</file>
+        <file alias="回形针">images/255-paper-clip.png</file>
+        <file alias="盒子">images/345-inbox-download.png</file>
+        <file alias="电子">images/445-electron.png</file>
+    </qresource>
+    <qresource lang="fr" prefix="/images/fr">
+        <file alias="smile">cool.png</file>
+    </qresource>
+</RCC>
