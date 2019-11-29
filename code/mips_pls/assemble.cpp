@@ -699,7 +699,7 @@ int assemble_manager::processAline(QString line, QString & assembled_line)
             isData = false;
             //jalr rs;
             //jalr rd, rs;
-            int numberofRegs = 0;
+
 
             QString reg;
             //抓取一个寄存器
@@ -1689,7 +1689,7 @@ int assemble_manager::processAline(QString line, QString & assembled_line)
                         addr_data[PC] = dec;
                         QString Bin;
                         Bin.setNum(dec, 2);
-                        Bin.rightJustified(32, '0');
+                        Bin = Bin.rightJustified(32, '0');
                         assembled_list << Bin;
 
                         Hex = "";
